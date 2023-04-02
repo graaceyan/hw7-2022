@@ -80,9 +80,9 @@ document.getElementById("mute").addEventListener("click", function()
 document.getElementById("vintage").addEventListener("click", function ()
 {
 	video.classList.add('oldSchool');
-})
+});
 
 document.getElementById("orig").addEventListener("click", function()
 {
 	video.classList.remove('oldSchool');
-})
+});
